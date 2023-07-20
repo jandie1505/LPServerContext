@@ -1,6 +1,10 @@
 # LPServerContext
 Module for CloudNet v4 which automatically sets the current task name as server config option for LuckPerms.
 
+## Requirements
+- CloudNet v4 (v3 is not supported)
+- LuckPerms configuration file in global template
+
 ## Installation
 1. Download the module from the releases page.
 2. Put the module into your CloudNet modules directory.
