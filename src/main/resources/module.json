@@ -1,0 +1,19 @@
+{
+  "runtimeModule": false,
+  "storesSensitiveData": false,
+  "main": "net.jandie1505.lpservercontext.LPServerContext",
+  "name": "LPServerContext",
+  "group": "net.jandie1505.lpservercontext",
+  "author": "jandie1505",
+  "version": "1.0",
+  "website": "https://github.com/jandie1505/LPServerContext",
+  "description": "A CloudNet v4 module which replaces the server option in LuckPerms config with the task name of the service",
+  "minJavaVersionId": 0,
+  "dependencies": [
+    {
+      "name": "CloudNet-Bridge",
+      "group": "eu.cloudnetservice.cloudnet",
+      "version": "4.0.0-RC9"
+    }
+  ]
+}
