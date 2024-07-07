@@ -3,7 +3,6 @@ Module for CloudNet v4 which automatically sets the current task name as server 
 
 ## Requirements
 - CloudNet v4 (v3 is not supported)
-- LuckPerms configuration file in global template
 
 ## Installation
 1. Download the module from the releases page.
@@ -12,8 +11,6 @@ Module for CloudNet v4 which automatically sets the current task name as server 
 `modules load LPServerContext`
 `modules start LPServerContext`
 
-## Usage
-The module automatically sets the `server` config option in the LuckPerms configuration file to the task name of the respective service.  
-This happens before the service starts.  
-This means you don't have anything to do, except **providing a LuckPerms configuration file via the Global template.
-If there is no configuration file before the start of the service, the server option will not be set!**
+## How it works
+This module sets the `server` context of LuckPerms to the current task id by adding `-Dluckperms.server=<taskId>` to the jvm arguments.
+You just need to install the module, everything else will be handled automatically. No need for configuration.
