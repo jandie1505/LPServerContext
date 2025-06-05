@@ -9,22 +9,22 @@
     <version>1.1-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>23</maven.compiler.source>
-        <maven.compiler.target>23</maven.compiler.target>
+        <maven.compiler.source>24</maven.compiler.source>
+        <maven.compiler.target>24</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>eu.cloudnetservice.cloudnet</groupId>
-            <artifactId>driver</artifactId>
-            <version>4.0.0-RC11.2</version>
+            <artifactId>driver-api</artifactId>
+            <version>4.0.0-RC12</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>eu.cloudnetservice.cloudnet</groupId>
-            <artifactId>node</artifactId>
-            <version>4.0.0-RC11.2</version>
+            <artifactId>node-api</artifactId>
+            <version>4.0.0-RC12</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
@@ -40,7 +40,7 @@
                         <annotationProcessorPath>
                             <groupId>eu.cloudnetservice.cloudnet</groupId>
                             <artifactId>platform-inject-processor</artifactId>
-                            <version>4.0.0-RC11</version>
+                            <version>4.0.0-RC12</version>
                         </annotationProcessorPath>
                     </annotationProcessorPaths>
                 </configuration>
